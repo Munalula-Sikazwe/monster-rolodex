@@ -1,17 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import {Component} from "react";
 
 class App extends Component {
     state = [
-        {name: 'Frankenstien'},
+        {name: 'Frankenstein'},
         {name: 'Dracula'}
-        ,{name: 'Zombie'},
+        , {name: 'Zombie'},
     ]
     render = () => (
         <div className="App">
             {
-                this.state.map( element => <h1> {element.name}</h1>)
+                this.state.map((element, i) => <h1 key={i}> {element.name}</h1>)
             }
         </div>
     );
