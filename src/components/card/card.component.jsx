@@ -3,7 +3,7 @@ import './card.styles.css'
 const cardComponent = ({monster})=>(
     <div className={"card-container"}>
         <img src={`https://robohash.org/${monster.id}?set=set2&size=180x180`} alt={"monster-images"}/>
-        <h1>{monster.name}</h1>
+        <h2>{monster.name}</h2>
         <p>{monster.email}</p>
     </div>
 )
