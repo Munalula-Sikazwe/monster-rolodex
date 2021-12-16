@@ -18,11 +18,10 @@ class App extends Component {
     }
 
 
-    render = () => (<div className="App">
-        <CardListComponent monsters={this.state.monsters}/>
-
-
-    </div>);
+    render = () => (
+        <div className="App">
+            <CardListComponent monsters={this.state.monsters}/>
+        </div>);
 }
 
 export default App;
