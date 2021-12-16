@@ -1,5 +1,5 @@
 import React from "react";
 
-const cardListComponent = props => <div>Hello</div>
+const cardListComponent = ({children}) => <div>{children}</div>
 
 export default cardListComponent;
