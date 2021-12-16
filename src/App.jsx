@@ -4,9 +4,13 @@ import CardListComponent from "./components/card-list/card-list.component";
 
 class App extends Component {
     state = {
-        monsters: []
+        monsters: [],
+        searchField: ""
     }
 
+    changeValue = (event) => {
+        this.setState({searchField:event.target.value})
+    }
 
     componentDidMount() {
         const endpoint = 'https://jsonplaceholder.typicode.com/users'
@@ -20,7 +24,7 @@ class App extends Component {
 
     render = () => (
         <div className="App">
-            <input type={'search'} placeholder={'Search Monsters'}/>
+            <input type={'search'} placeholder={'Search Monsters'} onChange={this.changeValue} />
             <CardListComponent monsters={this.state.monsters}/>
         </div>);
 }
