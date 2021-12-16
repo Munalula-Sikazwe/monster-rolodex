@@ -3,9 +3,9 @@ import './card-list.styles.css';
 import CardComponent from "../card/card.component";
 const cardListComponent = ({monsters}) => (
     <div className={"card-list"}>
-        {monsters.map((element) => (
-            <h1 key={element.id}>
-                <CardComponent monster={element}/>
+        {monsters.map((monster) => (
+            <h1 >
+                <CardComponent key={monster.id} monster={monster}/>
             </h1>))}
 
     </div>)
