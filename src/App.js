@@ -1,25 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import {Component} from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-       Shall we begin Munalula
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    state = [
+        {name: 'Frankenstien'},
+        {name: 'Dracula'}
+        ,{name: 'Zombie'},
+    ]
+    render = () => (
+        <div className="App">
+            {
+                this.state.map( element => <h1> {element.name}</h1>)
+            }
+        </div>
+    );
 }
 
 export default App;
