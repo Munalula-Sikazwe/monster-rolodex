@@ -1,6 +1,6 @@
 import './App.css';
 import {Component} from "react";
-
+import CardListComponent from "./components/card-list/card-list.component";
 class App extends Component {
     state = {
         monsters: []
