@@ -1,9 +1,10 @@
 import React from 'react';
+import './search-box.styles.css';
 
-const searchBoxComponent = ({onChange})=>(
-    <div>
-        <input type={'search'} placeholder={'Search Monsters'} onChange={onChange}/>
-    </div>
+const searchBoxComponent = ({onChange}) => (
+
+    <input className={'search'} type={'search'} placeholder={'Search Monsters'} onChange={onChange}/>
+
 )
 
 export default searchBoxComponent;
