@@ -18,7 +18,10 @@ class App extends Component {
 
 
     render = () => (<div className="App">
+        <CardListComponent>
             {this.state.monsters.map((element) => <h1 key={element.id}> {element.name}</h1>)}
+        </CardListComponent>
+
         </div>);
 }
 
