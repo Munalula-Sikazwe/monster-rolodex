@@ -1,9 +1,9 @@
 import React from 'react';
 import './search-box.styles.css';
 
-const searchBoxComponent = ({onChange}) => (
+const searchBoxComponent = ({handleChange,placeholder}) => (
 
-    <input className={'search'} type={'search'} placeholder={'Search Monsters'} onChange={onChange}/>
+    <input className={'search'} type={'search'} placeholder={placeholder} onChange={handleChange}/>
 
 )
 
