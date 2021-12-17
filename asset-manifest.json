@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https//:Munalula-Sikazwe.github.io/monster-rolodex/static/css/main.df46cf3d.css",
-    "main.js": "/https//:Munalula-Sikazwe.github.io/monster-rolodex/static/js/main.1c8c97f2.js",
-    "static/js/787.fbb2c275.chunk.js": "/https//:Munalula-Sikazwe.github.io/monster-rolodex/static/js/787.fbb2c275.chunk.js",
-    "index.html": "/https//:Munalula-Sikazwe.github.io/monster-rolodex/index.html",
-    "main.df46cf3d.css.map": "/https//:Munalula-Sikazwe.github.io/monster-rolodex/static/css/main.df46cf3d.css.map",
-    "main.1c8c97f2.js.map": "/https//:Munalula-Sikazwe.github.io/monster-rolodex/static/js/main.1c8c97f2.js.map",
-    "787.fbb2c275.chunk.js.map": "/https//:Munalula-Sikazwe.github.io/monster-rolodex/static/js/787.fbb2c275.chunk.js.map"
+    "main.css": "/monster-rolodex/static/css/main.df46cf3d.css",
+    "main.js": "/monster-rolodex/static/js/main.d333a40d.js",
+    "static/js/787.fbb2c275.chunk.js": "/monster-rolodex/static/js/787.fbb2c275.chunk.js",
+    "index.html": "/monster-rolodex/index.html",
+    "main.df46cf3d.css.map": "/monster-rolodex/static/css/main.df46cf3d.css.map",
+    "main.d333a40d.js.map": "/monster-rolodex/static/js/main.d333a40d.js.map",
+    "787.fbb2c275.chunk.js.map": "/monster-rolodex/static/js/787.fbb2c275.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df46cf3d.css",
-    "static/js/main.1c8c97f2.js"
+    "static/js/main.d333a40d.js"
   ]
 }
